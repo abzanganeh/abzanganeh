@@ -98,6 +98,4 @@ My quality assurance background provides distinctive value in machine learning a
 **Portfolio:** [barzin.xyz](https://barzin.xyz)
 **Location:** WA, USA
 
----
 
-*"Building data science expertise through systematic learning and practical application"*
