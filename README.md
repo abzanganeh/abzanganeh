@@ -94,8 +94,8 @@ My quality assurance background provides distinctive value in machine learning a
 ## 📫 Connect With Me
 
 **LinkedIn:** [linkedin.com/in/alireza-barzin-zanganeh-2a9909126](https://linkedin.com/in/alireza-barzin-zanganeh-2a9909126)
-**Email:** abarzinzanganeh@gmail.com
-**Portfolio:** [barzin.xyz](https://barzin.xyz)
+**Email:** alireza@zanganehai.com
+**Portfolio:** [zanganehai.com](https://zanganehai.com)
 **Location:** WA, USA
 
 
