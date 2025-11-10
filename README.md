@@ -1,7 +1,6 @@
 # Alireza Barzin Zanganeh  
 Senior QA Automation Engineer | ML-Focused Technologist  
-Camas, WA | [Email](mailto:alirezabz@hotmail.com) | [LinkedIn](#) | [Resume](#)
-
+Camas, WA | [Email](mailto:alireza@zanganehai.com) | [LinkedIn](https://www.linkedin.com/in/alireza-barzin-zanganeh-2a9909126)
 ## About Me
 
 I’m a senior engineer with a background in QA automation, software development, and executive leadership. Over the past few years, I’ve transitioned into machine learning and data science through structured training and hands-on projects. My focus is on building reliable, interpretable ML systems and integrating them into real-world applications.
