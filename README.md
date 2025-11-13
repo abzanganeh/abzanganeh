@@ -1,11 +1,11 @@
 # Alireza Barzin Zanganeh  
-Senior QA Automation Engineer | ML-Focused Technologist  
+AI/ML Software Engineer | Back-End & ML Infrastructure  
 Camas, WA  
 [Email](mailto:alireza@zanganehai.com) | [LinkedIn](https://www.linkedin.com/in/alireza-barzin-zanganeh-2a9909126)
 
 ## About Me
 
-I’m a senior engineer with a background in QA automation, software development, and executive leadership. Over the past few years, I’ve transitioned into machine learning and data science through structured training and hands-on projects. My focus is on building reliable, interpretable ML systems and integrating them into real-world applications.
+I’m a software engineer with a strong foundation in back-end development, infrastructure design, and machine learning systems. Over the past few years, I’ve transitioned into AI and GenAI through structured training and hands-on project work. My focus is on building reliable, interpretable ML applications and integrating them into real-world systems.
 
 ## Learning Journey
 
@@ -60,7 +60,7 @@ Explored survival patterns using statistical analysis and feature engineering.
 
 ## Professional Background
 
-I’ve led automation initiatives across web, mobile, and API platforms using Python, PyTest, Selenium, and Postman. My experience includes CI/CD integration with GitHub Actions and Jenkins, and testing ML-driven risk engines in identity security platforms. Prior to my technical career in the U.S., I held executive roles in fintech and manufacturing, where I applied econometric modeling and strategic planning to build and scale multimillion-dollar ventures.
+I’ve contributed to back-end systems, mobile SDKs, and ML-integrated platforms using Python, Java, and React. My experience includes CI/CD integration with GitHub Actions and Jenkins, and deploying ML-driven risk engines in identity security environments. Prior to my technical career in the U.S., I led strategic modeling and infrastructure planning for multimillion-dollar ventures in fintech and manufacturing.
 
 ## Career Timeline
 
