@@ -28,7 +28,10 @@ I'm completing Interview Kickstart's AIML Software Engineering Program, which co
 - End-to-end ML application development with LLM integration  
 
 ## Featured Projects
+### Fraud Shield AI (In Progress)  
+Capstone project -- an end-to-end fraud detection system combining ML pipelines with real-time data processing.
 
+**Technical Stack**: Python, Spark, PyTorch (more details coming as the project progresses)
 ### [Movie Agent Service](https://github.com/abzanganeh/movie-agent-service) & [Demo](https://github.com/abzanganeh/movie-agent-demo)  
 A production-grade agentic AI system for movie discovery using tool-calling agent architecture.
 
@@ -98,14 +101,3 @@ Classified signal strength data using supervised learning techniques.
 ## Professional Background
 
 I've contributed to back-end systems, mobile SDKs, and ML-integrated platforms using Python, Java, and React. My experience includes CI/CD integration with GitHub Actions and Jenkins, and deploying ML-driven risk engines in identity security environments. Prior to my technical career in the U.S., I led strategic modeling and infrastructure planning for multimillion-dollar ventures in fintech and manufacturing.
-
-## Career Timeline
-
-- **2025**: Advanced ML fundamentals, GenAI, and portfolio development  
-- **Fall 2025**: Capstone project completion  
-- **Jan 2026**: Job search readiness for ML Researcher, ML Ops Engineer, and Prompt Engineer roles  
-
-## Contact
-
-I'm open to collaboration, mentorship, and ML-focused opportunities. Feel free to reach out or explore my projects.
-
