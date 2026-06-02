@@ -1,103 +1,170 @@
 # Alireza Barzin Zanganeh  
-AI/ML Software Engineer | Back-End & ML Infrastructure  
+**AI/ML Engineer | MLOps | AI Application Engineering | ML Platforms | LLMs & RAG**  
 Camas, WA  
-[Email](mailto:alireza@zanganehai.com) | [LinkedIn](https://www.linkedin.com/in/alireza-barzin-zanganeh-2a9909126)
+[Email](mailto:alireza@zanganehai.com) • [LinkedIn](https://www.linkedin.com/in/alireza-barzin-zanganeh-2a9909126)
 
-## About Me
+---
 
-I'm a software engineer with a strong foundation in back-end development, infrastructure design, and machine learning systems. Over the past few years, I've transitioned into AI and GenAI through structured training and hands-on project work. My focus is on building reliable, interpretable ML applications and integrating them into real-world systems.
+## 🚀 About Me
+I build **production‑ready AI systems** at the intersection of **machine learning**, **MLOps**, and **backend engineering**. My work spans:
 
-## Learning Journey
+- **LLMs & RAG pipelines** integrated into real applications  
+- **Agentic AI systems** with tool‑calling and multi‑step reasoning  
+- **Identity, device trust, and risk‑scoring systems**  
+- **ML‑integrated backend services** and API‑driven architectures  
+- **Reliable, interpretable models** designed for deployment and maintenance  
 
-I'm completing Interview Kickstart's AIML Software Engineering Program, which covers the full ML lifecycle. My learning approach combines theory, implementation, and project-based validation.
+I bring a prior background in **quantitative modeling and forecasting**, which now informs how I design, evaluate, and harden ML systems in production.
 
-### Recently Completed
-- Python for ML and data analysis  
-- Pandas for feature engineering and statistical workflows  
-- Seaborn and Matplotlib for data visualization  
-- Supervised and unsupervised learning models (regression, classification, clustering, dimensionality reduction)  
-- Deep learning architectures including CNNs, RNNs, and Transformers (BERT, LLMs)  
-- ML model deployment strategies and evaluation techniques  
-- Agentic AI frameworks: tool-calling agents, multi-step reasoning, and autonomous workflows
+---
 
-### Currently Exploring
-- Large Language Models (LLMs): fine-tuning, embeddings, and retrieval-augmented generation  
+## 🧠 Core Skills & Tech Summary
+
+**Languages:** Python, Go, Java, JavaScript, TypeScript  
+**ML / DL:** Scikit‑learn, PyTorch, XGBoost, LightGBM, CNNs, RNNs, LSTMs  
+**LLMs & RAG:** LangChain, FAISS, embeddings, OpenAI/Groq APIs, tool‑calling agents  
+**Identity & Security:** OAuth/OIDC, JWT, device trust, MFA orchestration, risk scoring  
+**Data & Pipelines:** Pandas, NumPy, Spark/PySpark, feature engineering, time‑series modeling  
+**MLOps / Infra:** CI/CD (GitHub Actions, Jenkins), Docker, monitoring patterns, API design  
+**Backend:** Flask, FastAPI, microservices, secure API boundaries  
+
+---
+
+## 📚 Current Focus & Recent Work
+
+I’m completing Interview Kickstart’s AIML Software Engineering Program, with emphasis on **end‑to‑end ML systems** rather than isolated models.
+
+### Recently Strengthened
+- Python for ML and data workflows  
+- Feature engineering & statistical analysis  
+- Visualization with Seaborn & Matplotlib  
+- Classical ML: regression, classification, clustering, dimensionality reduction  
+- Deep learning: CNNs, RNNs, Transformers, LLMs  
+- Model evaluation, deployment, and monitoring  
+- Agentic AI: tool‑calling, multi‑step reasoning, autonomous workflows  
+
+### Current Focus
+- LLM fine‑tuning, embeddings, retrieval‑augmented generation  
 - NLP pipelines: tokenization, vectorization, semantic search  
-- Prompt engineering and GenAI system design  
-- Advanced agentic AI patterns and production-grade system architecture
-- End-to-end ML application development with LLM integration  
-
-## Featured Projects
-### Fraud Shield AI (In Progress)  
-Capstone project -- an end-to-end fraud detection system combining ML pipelines with real-time data processing.
-
-**Technical Stack**: Python, Spark, PyTorch (more details coming as the project progresses)
-### [Movie Agent Service](https://github.com/abzanganeh/movie-agent-service) & [Demo](https://github.com/abzanganeh/movie-agent-demo)  
-A production-grade agentic AI system for movie discovery using tool-calling agent architecture.
-
-**Senior-Level Implementation Highlights:**
-- **Architecture Design**: Chose tool-calling agent over ReAct for production reliability. Implemented clear separation of concerns: Service (rules + state) → Agent (reasoning) → Tools (execution) → Service (validation)
-- **OOP Principles**: Applied Single Responsibility, Separation of Decision/Action, Dependency Inversion, Factory Pattern, and Strategy Pattern throughout the codebase
-- **Design Philosophy**: "No class should decide and act at the same time unless it is an Agent" - enforced strict separation between decision-making (e.g., `SimilarityQueryAnalyzer`) and action execution (e.g., `MovieSearchTool`)
-- **State Management**: Built session-based memory isolation with stateless service design for scalability
-- **Tool Integration**: Implemented RAG with FAISS vector store, multi-tool orchestration (search, statistics, quiz generation, vision analysis)
-- **Error Handling**: Graceful degradation with validation layers and structured error responses
-- **Frontend Architecture**: Decoupled Flask presentation layer from agent logic with clean API boundaries
-
-**Technical Stack**: Python, LangChain, FAISS, OpenAI/Groq APIs, Flask, JavaScript
+- Prompt engineering & GenAI system design  
+- Agentic patterns for robust, debuggable AI behavior  
+- End‑to‑end ML applications with LLM integration  
 
 ---
 
-### [Churn Risk Intelligence](https://github.com/abzanganeh/churn_risk_intelligence)  
-Predictive modeling for customer churn using structured telecom data.
+# 🌟 Featured Projects
 
-**Implementation Highlights:**
-- Applied advanced feature engineering and correlation analysis
-- Trained and evaluated multiple classifiers with cross-validation
-- Delivered actionable insights for retention strategies with business-focused metrics
-- Implemented proper train/validation/test splits with stratified sampling
+## 🔐 ASAR — Device Identity, Fingerprinting & Risk Engine (Private)
+A multi‑service platform for **device identity**, **browser fingerprinting**, **risk scoring**, and **MFA orchestration** for enterprise authentication flows.
 
-**Technical Stack**: Python, Pandas, Scikit-learn, Matplotlib
+### Engineering Highlights
+- Go‑based identity service with **OIDC discovery**, **JWKS**, and secure internal token issuance  
+- Cryptographic keystore abstraction with **ES384** and hardened defaults  
+- Browser SDK (TypeScript) for fingerprint capture and device binding  
+- Microservices for fingerprint collection, matching, anomaly detection, and MFA routing  
+- Argon2id password storage, account lockout, and hardened login flows  
+- Multi‑phase architecture: IdP foundation → anomaly engine → event bus + MFA feedback  
 
----
-
-### [Bank Term Deposit Prediction](https://github.com/abzanganeh/bank-term-deposit-prediction)  
-Binary classification model to predict term deposit subscriptions.
-
-**Implementation Highlights:**
-- Explored imbalanced data handling with SMOTE and precision-recall tradeoffs
-- Used interpretable models (logistic regression, decision trees) for business decision support
-- Created comprehensive visualizations for model explainability
-- Implemented proper evaluation metrics for imbalanced classification
-
-**Technical Stack**: Python, Scikit-learn, Imbalanced-learn, Seaborn
+**Tech Stack:** Go, TypeScript, Node, microservices, OAuth/OIDC, JWT, Argon2id, RBAC, rate‑limiting  
 
 ---
 
-### [Flask ML Website](https://github.com/abzanganeh/flask_ml_website)  
-A full-stack web application integrating a trained ML model into a Flask-based interface.
+## 🛡️ Trust — Multi‑Tenant Identity & Assurance Platform (Private)
+A full enterprise identity platform supporting **authentication**, **device trust**, **policy enforcement**, **risk scoring**, and **admin workflows**.
 
-**Implementation Highlights:**
-- Built responsive UI for user input and real-time prediction output
-- Deployed classification model with production-ready error handling
-- Demonstrated end-to-end ML integration from training to deployment
-- Implemented proper API design with request validation
+### Platform Capabilities
+- OAuth/OIDC/SAML IdP flows  
+- MFA: WebAuthn, TOTP, push, device pairing  
+- SCIM provisioning  
+- Conditional access policies  
+- Behavioral & contextual risk scoring  
+- Tenant‑scoped admin APIs and audit logs  
+- Staging‑to‑production releases with health‑gated deployments  
 
-**Technical Stack**: Python, Flask, HTML/CSS/JavaScript, Scikit-learn
+**Tech Stack:** Rails API, Vue dashboard, Node analytics, Sidekiq workers, AWS ECS, GitLab CI/CD  
 
 ---
 
-### [Signal Strength Classification](https://github.com/abzanganeh/signal_strength)  
-Classified signal strength data using supervised learning techniques.
+## 🤖 Rai — Agentic AI Layer for Identity & Admin Workflows (Private)
+A production‑oriented **agentic AI service** designed for identity, assurance, and admin operations.
 
-**Implementation Highlights:**
-- Cleaned and transformed raw signal data with robust preprocessing pipelines
-- Applied SVM and k-NN classifiers with hyperparameter tuning
-- Evaluated model performance using cross-validation and proper metrics
-- Implemented data validation and feature standardization
+### Engineering Highlights
+- FastAPI backend with **domain‑specialist agents**  
+- RBAC‑scoped tools and **fail‑closed safety gates**  
+- Retrieval‑augmented generation with structured action flows  
+- Step‑up authentication, citation enforcement, and versioned prompts  
+- 570+ golden eval cases with CI‑gated releases  
+- Designed to augment Trust via HTTP adapters  
 
-**Technical Stack**: Python, Scikit-learn, Pandas, NumPy
+**Tech Stack:** Python, FastAPI, LangChain, FAISS, OpenAI/Groq APIs, Kubernetes  
 
-## Professional Background
+---
 
-I've contributed to back-end systems, mobile SDKs, and ML-integrated platforms using Python, Java, and React. My experience includes CI/CD integration with GitHub Actions and Jenkins, and deploying ML-driven risk engines in identity security environments. Prior to my technical career in the U.S., I led strategic modeling and infrastructure planning for multimillion-dollar ventures in fintech and manufacturing.
+## 🎬 Movie Agent Service & Demo  
+A production‑style **agentic AI system** for movie discovery using a **tool‑calling agent architecture**.
+
+### Key Engineering Decisions
+- **Architecture:** Service (rules + state) → Agent (reasoning) → Tools (execution) → Service (validation)  
+- **OOP & Design:** SRP, Separation of Decision/Action, Dependency Inversion, Factory & Strategy patterns  
+- **Scalability:** Stateless service with session‑scoped context  
+- **RAG & Tools:** FAISS retrieval; multi‑tool orchestration (search, statistics, quiz generation, vision analysis)  
+- **Resilience:** Validation layers, structured error responses, graceful degradation  
+- **Frontend Separation:** Flask as a pure presentation/API layer  
+
+**Tech Stack:** Python, LangChain, FAISS, OpenAI/Groq APIs, Flask, JavaScript  
+**Repos:**  
+- Service: https://github.com/abzanganeh/movie-agent-service  
+- Demo: https://github.com/abzanganeh/movie-agent-demo  
+
+---
+
+## 📉 Churn Risk Intelligence  
+Predictive modeling for telecom churn with **business‑aligned evaluation**.
+
+**Tech Stack:** Python, Pandas, Scikit‑learn, Matplotlib  
+**Repo:** https://github.com/abzanganeh/churn_risk_intelligence  
+
+---
+
+## 💰 Bank Term Deposit Prediction  
+Binary classification on imbalanced financial data with a focus on **interpretability and risk tradeoffs**.
+
+**Tech Stack:** Python, Scikit‑learn, Imbalanced‑learn, Seaborn  
+**Repo:** https://github.com/abzanganeh/bank-term-deposit-prediction  
+
+---
+
+## 🌐 Flask ML Website  
+A full‑stack ML application exposing a trained model via a **Flask‑based web interface**.
+
+**Tech Stack:** Python, Flask, HTML/CSS/JavaScript, Scikit‑learn  
+**Repo:** https://github.com/abzanganeh/flask_ml_website  
+
+---
+
+## 📡 Signal Strength Classification  
+Supervised learning on environmental signal data with emphasis on **data quality and evaluation**.
+
+**Tech Stack:** Python, Scikit‑learn, Pandas, NumPy  
+**Repo:** https://github.com/abzanganeh/signal_strength  
+
+---
+
+## 🧩 Professional Background
+
+I’ve engineered **ML‑integrated backend systems**, **mobile SDKs**, and **risk‑scoring platforms** in identity security and authentication domains.
+
+### Highlights
+- Integrated ML‑driven risk engines into authentication workflows  
+- Built and maintained CI/CD pipelines (GitHub Actions, Jenkins)  
+- Designed secure, API‑centric backend services  
+- Collaborated across engineering, security, and product to ship reliable features  
+
+Before my U.S. engineering roles, I led **strategic modeling and infrastructure planning** for multimillion‑dollar initiatives in fintech and manufacturing, working heavily with:
+
+- forecasting  
+- regression modeling  
+- scenario simulation  
+- capital and resource planning  
+
+This quantitative foundation now directly strengthens my ML engineering work.
