@@ -160,7 +160,7 @@ I’ve engineered **ML‑integrated backend systems**, **mobile SDKs**, and **ri
 - Designed secure, API‑centric backend services  
 - Collaborated across engineering, security, and product to ship reliable features  
 
-Before my U.S. engineering roles, I led **strategic modeling and infrastructure planning** for multimillion‑dollar initiatives in fintech and manufacturing, working heavily with:
+Before my engineering roles in identity and ML systems, I led **strategic modeling and infrastructure planning** for multimillion‑dollar initiatives in fintech and manufacturing, working heavily with:
 
 - forecasting  
 - regression modeling  
