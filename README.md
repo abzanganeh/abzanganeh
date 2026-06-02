@@ -69,22 +69,6 @@ A multi‑service platform for **device identity**, **browser fingerprinting**, 
 
 ---
 
-## 🛡️ Trust — Multi‑Tenant Identity & Assurance Platform (Private)
-A full enterprise identity platform supporting **authentication**, **device trust**, **policy enforcement**, **risk scoring**, and **admin workflows**.
-
-### Platform Capabilities
-- OAuth/OIDC/SAML IdP flows  
-- MFA: WebAuthn, TOTP, push, device pairing  
-- SCIM provisioning  
-- Conditional access policies  
-- Behavioral & contextual risk scoring  
-- Tenant‑scoped admin APIs and audit logs  
-- Staging‑to‑production releases with health‑gated deployments  
-
-**Tech Stack:** Rails API, Vue dashboard, Node analytics, Sidekiq workers, AWS ECS, GitLab CI/CD  
-
----
-
 ## 🤖 Rai — Agentic AI Layer for Identity & Admin Workflows (Private)
 A production‑oriented **agentic AI service** designed for identity, assurance, and admin operations.
 
