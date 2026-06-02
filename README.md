@@ -14,7 +14,7 @@ I build **production‑ready AI systems** at the intersection of **machine learn
 - **ML‑integrated backend services** and API‑driven architectures  
 - **Reliable, interpretable models** designed for deployment and maintenance  
 
-I bring a prior background in **quantitative modeling and forecasting**, which now informs how I design, evaluate, and harden ML systems in production.
+Earlier in my career, I led **strategic modeling and infrastructure planning** for multimillion‑dollar initiatives in fintech and manufacturing — a quantitative foundation that now strengthens my ML engineering work.
 
 ---
 
@@ -26,7 +26,7 @@ I bring a prior background in **quantitative modeling and forecasting**, which n
 **Identity & Security:** OAuth/OIDC, JWT, device trust, MFA orchestration, risk scoring  
 **Data & Pipelines:** Pandas, NumPy, Spark/PySpark, feature engineering, time‑series modeling  
 **MLOps / Infra:** CI/CD (GitHub Actions, Jenkins), Docker, monitoring patterns, API design  
-**Backend:** Flask, FastAPI, microservices, secure API boundaries  
+**Backend:** FastAPI, Flask, microservices, secure API boundaries  
 
 ---
 
@@ -35,9 +35,7 @@ I bring a prior background in **quantitative modeling and forecasting**, which n
 I’m completing Interview Kickstart’s AIML Software Engineering Program, with emphasis on **end‑to‑end ML systems** rather than isolated models.
 
 ### Recently Strengthened
-- Python for ML and data workflows  
 - Feature engineering & statistical analysis  
-- Visualization with Seaborn & Matplotlib  
 - Classical ML: regression, classification, clustering, dimensionality reduction  
 - Deep learning: CNNs, RNNs, Transformers, LLMs  
 - Model evaluation, deployment, and monitoring  
@@ -54,31 +52,48 @@ I’m completing Interview Kickstart’s AIML Software Engineering Program, with
 
 # 🌟 Featured Projects
 
+## 📝 Smart Resume Agent  
+An AI‑powered resume‑tailoring platform that rewrites resumes using **exact JD phrasing**, **ATS‑optimized keywords**, and **non‑fabricated metrics**, powered by a multi‑phase LLM pipeline.
+
+**Engineering Highlights**
+- Four‑phase agent pipeline: JD keyword extraction → gap analysis → rewrite → QA & ATS scoring  
+- LLM abstraction layer: Gemini, Claude, OpenAI, and BYOK support  
+- Embedding‑backed master resume (pgvector) for grounded rewrites  
+- Inline editing, section‑level regeneration, version history, and patch‑based chat edits  
+- ATS scoring engine with keyword deltas, ceilings, quick wins, and blocking issues  
+- Secure OAuth (Google) + session‑scoped BYOK keys  
+- Scalable architecture: Next.js frontend, FastAPI backend, Redis sessions, Postgres + pgvector  
+
+**Tech Stack:** Python, FastAPI, Next.js 15, Tailwind, Redis, Postgres (pgvector), Docker Compose  
+**Repo:** https://github.com/abzanganeh/smart-resume-agent
+
+---
+
 ## 🔐 ASAR — Device Identity, Fingerprinting & Risk Engine (Private)
 A multi‑service platform for **device identity**, **browser fingerprinting**, **risk scoring**, and **MFA orchestration** for enterprise authentication flows.
 
-### Engineering Highlights
-- Go‑based identity service with **OIDC discovery**, **JWKS**, and secure internal token issuance  
-- Cryptographic keystore abstraction with **ES384** and hardened defaults  
+**Engineering Highlights**
+- Go‑based identity service with OIDC discovery, JWKS, and secure internal token issuance  
+- Cryptographic keystore abstraction with ES384 and hardened defaults  
 - Browser SDK (TypeScript) for fingerprint capture and device binding  
 - Microservices for fingerprint collection, matching, anomaly detection, and MFA routing  
 - Argon2id password storage, account lockout, and hardened login flows  
 - Multi‑phase architecture: IdP foundation → anomaly engine → event bus + MFA feedback  
 
-**Tech Stack:** Go, TypeScript, Node, microservices, OAuth/OIDC, JWT, Argon2id, RBAC, rate‑limiting  
+**Tech Stack:** Go, TypeScript, Node, microservices, OAuth/OIDC, JWT, Argon2id, RBAC  
 
 ---
 
 ## 🤖 Rai — Agentic AI Layer for Identity & Admin Workflows (Private)
 A production‑oriented **agentic AI service** designed for identity, assurance, and admin operations.
 
-### Engineering Highlights
-- FastAPI backend with **domain‑specialist agents**  
-- RBAC‑scoped tools and **fail‑closed safety gates**  
+**Engineering Highlights**
+- FastAPI backend with domain‑specialist agents  
+- RBAC‑scoped tools and fail‑closed safety gates  
 - Retrieval‑augmented generation with structured action flows  
 - Step‑up authentication, citation enforcement, and versioned prompts  
 - 570+ golden eval cases with CI‑gated releases  
-- Designed to augment Trust via HTTP adapters  
+- Designed to augment identity platforms via HTTP adapters  
 
 **Tech Stack:** Python, FastAPI, LangChain, FAISS, OpenAI/Groq APIs, Kubernetes  
 
@@ -87,13 +102,13 @@ A production‑oriented **agentic AI service** designed for identity, assurance,
 ## 🎬 Movie Agent Service & Demo  
 A production‑style **agentic AI system** for movie discovery using a **tool‑calling agent architecture**.
 
-### Key Engineering Decisions
-- **Architecture:** Service (rules + state) → Agent (reasoning) → Tools (execution) → Service (validation)  
-- **OOP & Design:** SRP, Separation of Decision/Action, Dependency Inversion, Factory & Strategy patterns  
-- **Scalability:** Stateless service with session‑scoped context  
-- **RAG & Tools:** FAISS retrieval; multi‑tool orchestration (search, statistics, quiz generation, vision analysis)  
-- **Resilience:** Validation layers, structured error responses, graceful degradation  
-- **Frontend Separation:** Flask as a pure presentation/API layer  
+**Key Engineering Decisions**
+- Architecture: Service (rules + state) → Agent (reasoning) → Tools (execution) → Service (validation)  
+- OOP & Design: SRP, Separation of Decision/Action, Dependency Inversion, Factory & Strategy patterns  
+- Stateless service with session‑scoped context  
+- FAISS‑backed retrieval; multi‑tool orchestration (search, statistics, quiz generation, vision analysis)  
+- Validation layers, structured error responses, graceful degradation  
+- Flask as a pure presentation/API layer  
 
 **Tech Stack:** Python, LangChain, FAISS, OpenAI/Groq APIs, Flask, JavaScript  
 **Repos:**  
@@ -138,17 +153,10 @@ Supervised learning on environmental signal data with emphasis on **data quality
 
 I’ve engineered **ML‑integrated backend systems**, **mobile SDKs**, and **risk‑scoring platforms** in identity security and authentication domains.
 
-### Highlights
+**Highlights**
 - Integrated ML‑driven risk engines into authentication workflows  
 - Built and maintained CI/CD pipelines (GitHub Actions, Jenkins)  
 - Designed secure, API‑centric backend services  
 - Collaborated across engineering, security, and product to ship reliable features  
 
-Before my engineering roles in identity and ML systems, I led **strategic modeling and infrastructure planning** for multimillion‑dollar initiatives in fintech and manufacturing, working heavily with:
-
-- forecasting  
-- regression modeling  
-- scenario simulation  
-- capital and resource planning  
-
-This quantitative foundation now directly strengthens my ML engineering work.
+Earlier in my career, I led **strategic modeling and infrastructure planning** for multimillion‑dollar initiatives in fintech and manufacturing — a quantitative foundation that now directly strengthens my ML engineering work.
